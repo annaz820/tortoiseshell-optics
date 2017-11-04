@@ -1,0 +1,105 @@
+nav {
+  display: inline-flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  float: right;
+}
+
+nav a {
+  color: white;
+  padding-right: 2rem;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  float: right;
+}
+
+img {
+  margin: 0 auto;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.white {
+  color: white;
+  font-family: Helvetica;
+}
+
+.header-left {
+  display: inline-flex;
+  margin-left: 2rem;
+}
+
+.logo {
+  display: flex;
+  margin-left: 2rem;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name {
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.cont-space {
+  padding-right: 6rem;
+}
+
+.img {
+  width: 5rem;
+}
+
+#main {
+  background-image: url("../images/glasses-bg.png");
+  height: 31rem;
+  background-size: cover;
+  padding: 1rem;
+}
+
+#header {
+  background-color: cadetblue;
+  height: 3rem;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#logo {
+  height: 1.5rem;
+  display: inline-block;
+}
+
+#mid {
+  width: 996px;
+  margin: 0 auto;
+  padding-top: 10rem;
+}
+
+#icon {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+#paper {
+  width: 3.5rem;
+}
